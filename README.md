@@ -20,3 +20,6 @@ Enable robust biochemical comparison between FF and FFPE tissues
 Reproducibility
 
 All preprocessing steps and parameters are explicitly defined to ensure reproducibility of spectral analysis workflows used in the associated manuscript.
+
+
+Zheng T, Adi W, Campagnola PJ, Yesilkoy F. Fix or Freeze? Spectral Differences Arising from Tissue Preparation in Chemical Imaging. bioRxiv [Preprint]. 2025 Nov 19:2025.11.19.689284. doi: 10.1101/2025.11.19.689284. PMID: 41332745; PMCID: PMC12667749.
