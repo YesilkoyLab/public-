@@ -54,10 +54,13 @@ After processing → each sample becomes:
 ## Repository structure
 
 ├── analyzeData.mlx 
-    ├── load_and_average_sample.m /n
-    ├── process_one_sample.m /n
-    ├── select_main_island.m /n
-    ├── sg_second_derivative.m /n
+    ├── load_and_average_sample.m
+    
+    ├── process_one_sample.m 
+    
+    ├── select_main_island.m
+    
+    ├── sg_second_derivative.m
 
 ---
 
