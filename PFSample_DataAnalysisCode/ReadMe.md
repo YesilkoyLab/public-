@@ -55,13 +55,9 @@ After processing → each sample becomes:
 
 ├── analyzeData.mlx 
     ├── load_and_average_sample.m
-    
     ├── process_one_sample.m 
-    
     ├── select_main_island.m
-    
     ├── sg_second_derivative.m
-
 ---
 
 ## How to use
