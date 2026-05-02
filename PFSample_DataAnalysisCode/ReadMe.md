@@ -72,13 +72,15 @@ After processing → each sample becomes:
 
 ---
 
-## Repository structure
-
+## Code structure
+<pre>
 ├── analyzeData.mlx <br>
     ├── load_and_average_sample.m <br>
     ├── process_one_sample.m <br>
     ├── select_main_island.m <br>
     ├── sg_second_derivative.m <br>
+
+<pre>    
 ---
 
 ## How to use
