@@ -12,23 +12,25 @@ This project takes raw spectral measurements from metasurface sensors and turns 
 - Feature-enhanced signals (via second derivative)  
 - Low-dimensional representations (via PCA)  
 
-The transmittance spectra from the metasurfaces are first loaded
+The transmittance spectra from the metasurfaces are first loaded.
 
 ![transmittance](./figures/transmittance.png)
 
 
-Then we only select the part of the resonance (by thresholding and keeping only the top 70%) 
+Then we only select the main part of the resonance (by thresholding and keeping only the top 70%, this threshold can be adjusted). 
 
 
 ![selected_transmittance](./figures/selected_transmittance.png)
 
 
 
-Subsequently we perform second derivative and the data can be used for classification of patient samples
+Subsequently we perform second derivative and the data can be used for classification of patient samples.
 
 ![2ndDerivative](./figures/2ndDerivative.png)
 
+For example samples from multiple patients can be studied using PCA.
 
+![pca_metasurface](./figures/pca_metasurface.png)
 
 
 
