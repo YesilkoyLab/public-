@@ -14,23 +14,21 @@ This project takes raw spectral measurements from metasurface sensors and turns 
 
 The transmittance spectra from the metasurfaces are first loaded
 
-
-  <img src="./figures/transmittance" width="500"/>
-
+![transmittance](./figures/transmittance.png)
 
 
 Then we only select the part of the resonance (by thresholding and keeping only the top 70%) 
 
 
-  <img src="./figures/selected_transmittance" width="500"/>
+![selected_transmittance](./figures/selected_transmittance.png)
 
 
 
 Subsequently we perform second derivative and the data can be used for classification of patient samples
 
+![2ndDerivative](./figures/2ndDerivative.png)
 
 
-  <img src="./figures/2ndDerivative" width="500"/>
 
 
 
