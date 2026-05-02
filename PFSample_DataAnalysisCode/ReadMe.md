@@ -80,7 +80,7 @@ After processing → each sample becomes:
     ├── select_main_island.m <br>
     ├── sg_second_derivative.m <br>
 
-<pre>    
+</pre>
 ---
 
 ## How to use
