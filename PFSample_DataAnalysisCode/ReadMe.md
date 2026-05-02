@@ -26,7 +26,7 @@ Each sample consists of:
 
 After processing → each sample becomes:
 
-20 × 426 matrix (metasurface × wavelength)
+20 × 426 matrix (metasurface × wavelength) only in the resonance region of the metasurface
 
 ---
 
