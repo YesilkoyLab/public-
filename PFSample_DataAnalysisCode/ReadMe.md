@@ -8,7 +8,7 @@ MATLAB pipeline for processing and analyzing hyperspectral transmittance data fr
 
 This project takes raw spectral measurements from metasurface sensors and turns them into:
 
-- Clean, averaged spectra per sample  
+- Clean, averaged spectra per sample that contains only the resonance region of the metasurface
 - Feature-enhanced signals (via second derivative)  
 - Low-dimensional representations (via PCA)  
 
@@ -20,7 +20,7 @@ This project takes raw spectral measurements from metasurface sensors and turns 
 Each sample consists of:
 
 - 20 metasurfaces
-- 11 × 11 spatial measurements per metasurface
+- 11 × 11 spatial measurements per metasurface (region determined manually for now)
 - Spectral range: 950–1800 cm⁻¹
 - Resolution: 2 cm⁻¹ (~426 points)
 
@@ -33,7 +33,7 @@ After processing → each sample becomes:
 ## Pipeline overview
 
 1. Load & average
-   - Spatial averaging across each metasurface
+   - Spatial averaging (11x11) across each metasurface
 
 2. Preprocessing
    - Extract spectral region of interest
@@ -76,17 +76,5 @@ matlab data = process_one_sample(sample_path);
 - PCA score plots  
 - Cluster visualization  
 - Enhanced spectral features  
-
-
----
-
-## Why this matters
-
-Metasurface sensors produce rich spectral data, but raw signals are noisy and high-dimensional.
-
-This pipeline:
-- reduces noise
-- highlights subtle spectral features
-- enables pattern discovery across samples
 
 
