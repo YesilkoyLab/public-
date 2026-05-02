@@ -70,16 +70,6 @@ matlab analyzeData.mlx
 ### Process one sample
 matlab data = process_one_sample(sample_path); 
 
----
-
-## Dataset (used in study)
-
-- 20 ovarian cancer samples  
-- 2 non-cancer controls  
-
-> Note: Small and imbalanced dataset — results are exploratory.
-
----
 
 ## Example output
 
@@ -87,7 +77,6 @@ matlab data = process_one_sample(sample_path);
 - Cluster visualization  
 - Enhanced spectral features  
 
-(Add your PCA screenshot here later)
 
 ---
 
