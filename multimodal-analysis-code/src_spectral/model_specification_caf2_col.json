@@ -1,0 +1,277 @@
+{
+    "models": [
+        {
+            "_comment": "Symmetric PO2",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 1,
+                    "min": 0,
+                    "max": 5
+                },
+                "center": {
+                    "value": 1034,
+                    "min": 1028,
+                    "max": 1038
+                },
+                "sigma": {
+                    "value": 5,
+                    "min": 2,
+                    "max": 15
+                }
+            }
+        },
+        {
+            "_comment": "Phosphate band/Collagen",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 1,
+                    "min": 0,
+                    "max": 5
+                },
+                "center": {
+                    "value": 1082,
+                    "min": 1078,
+                    "max": 1086
+                },
+                "sigma": {
+                    "value": 5,
+                    "min": 2,
+                    "max": 15
+                }
+            }
+        },
+        {
+            "_comment": "CO stretching",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 3,
+                    "min": 0,
+                    "max": 8
+                },
+                "center": {
+                    "value": 1162,
+                    "min": 1157,
+                    "max": 1167
+                },
+                "sigma": {
+                    "value": 5,
+                    "min": 2,
+                    "max": 15
+                }
+            }
+        },
+        {
+            "_comment": "Amide III",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 1,
+                    "min": 0,
+                    "max": 5
+                },
+                "center": {
+                    "value": 1202,
+                    "min": 1197,
+                    "max": 1207
+                },
+                "sigma": {
+                    "value": 5,
+                    "min": 2,
+                    "max": 12
+                }
+            }
+        },
+        {
+            "_comment": "Phosphate I/Amide III",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 2,
+                    "min": 0,
+                    "max": 10
+                },
+                "center": {
+                    "value": 1234,
+                    "min": 1228,
+                    "max": 1242
+                },
+                "sigma": {
+                    "value": 8,
+                    "min": 3,
+                    "max": 20
+                }
+            }
+        },
+        {
+            "_comment": "Amide III",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 2,
+                    "min": 0,
+                    "max": 8
+                },
+                "center": {
+                    "value": 1282,
+                    "min": 1276,
+                    "max": 1288
+                },
+                "sigma": {
+                    "value": 8,
+                    "min": 3,
+                    "max": 18
+                }
+            }
+        },
+        {
+            "_comment": "CH2 wagging/collagen",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 3,
+                    "min": 0,
+                    "max": 10
+                },
+                "center": {
+                    "value": 1340,
+                    "min": 1334,
+                    "max": 1346
+                },
+                "sigma": {
+                    "value": 8,
+                    "min": 3,
+                    "max": 20
+                }
+            }
+        },
+        {
+            "_comment": "Symmetric CH3 bending",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 4,
+                    "min": 0,
+                    "max": 12
+                },
+                "center": {
+                    "value": 1403,
+                    "min": 1396,
+                    "max": 1410
+                },
+                "sigma": {
+                    "value": 10,
+                    "min": 3,
+                    "max": 22
+                }
+            }
+        },
+        {
+            "_comment": "Asymmetric CH3 bending",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 5,
+                    "min": 0,
+                    "max": 15
+                },
+                "center": {
+                    "value": 1454,
+                    "min": 1448,
+                    "max": 1460
+                },
+                "sigma": {
+                    "value": 15,
+                    "min": 4,
+                    "max": 25
+                }
+            }
+        },
+        {
+            "_comment": "Amide II",
+            "type": "GaussianModel",
+            "params": {
+                "amplitude": {
+                    "value": 30,
+                    "min": 0,
+                    "max": 60
+                },
+                "center": {
+                    "value": 1552,
+                    "min": 1545,
+                    "max": 1560
+                },
+                "sigma": {
+                    "value": 10,
+                    "min": 4,
+                    "max": 25
+                }
+            }
+        },
+        {
+    "_comment": "Amide I beta-sheet",
+    "type": "GaussianModel",
+    "params": {
+        "amplitude": {
+            "value": 2.5,
+            "min": 0.2,
+            "max": 8
+        },
+        "center": {
+            "value": 1636,
+            "min": 1633,
+            "max": 1639
+        },
+        "sigma": {
+            "value": 10,
+            "min": 6,
+            "max": 18
+        }
+    }
+},
+{
+    "_comment": "Amide I alpha-helix",
+    "type": "GaussianModel",
+    "params": {
+        "amplitude": {
+            "value": 16,
+            "min": 8,
+            "max": 40
+        },
+        "center": {
+            "value": 1662,
+            "min": 1659,
+            "max": 1666
+        },
+        "sigma": {
+            "value": 11,
+            "min": 7,
+            "max": 18
+        }
+    }
+},
+{
+    "_comment": "Amide I beta-turn",
+    "type": "GaussianModel",
+    "params": {
+        "amplitude": {
+            "value": 1.2,
+            "min": 0.1,
+            "max": 4
+        },
+        "center": {
+            "value": 1694,
+            "min": 1689,
+            "max": 1698
+        },
+        "sigma": {
+            "value": 8,
+            "min": 5,
+            "max": 14
+        }
+    }
+}
+    ]
+}
